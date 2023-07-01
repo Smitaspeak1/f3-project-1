@@ -40,28 +40,28 @@ nav .nav-items a {
     margin: 0 1rem;
 }
 
-.formContainer h1{
-  text-align: center;
-  margin-top: 2rem;
+
+.creditialsContainer h2{
+    margin: 40px 35px 20px ;
 }
 
-.formContainer form{
-  display: flex;
-  flex-direction: column;
-  gap:1.5rem;
-  padding: 1.5rem;
-
+.creditialsContainer form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    gap: 1rem;
+}
+.creditialsContainer input{
+    padding: 1rem;
+    
 }
 
-.formContainer input{
-  padding: .5rem;
-}
-
-.formContainer button{
-  background-color:black;
-    color: white;
-    width: 7rem;
+.creditialsContainer button{
     padding: .5rem;
+    /* margin: auto; */
     float: left;
-
+    width: 7%;
+    color: white;
+    background-color: black;
 }

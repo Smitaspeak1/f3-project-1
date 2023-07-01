@@ -4,10 +4,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  
   overflow-x: hidden;
 }
 
@@ -40,28 +41,27 @@ nav .nav-items a {
     margin: 0 1rem;
 }
 
-.formContainer h1{
-  text-align: center;
-  margin-top: 2rem;
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* margin-left: 3rem; */
+    padding: 10px;
+}
+#signup-form input{
+    margin: auto;
+    width: 95%;
+    padding: 1rem;
+}
+#signup-title{
+margin:2rem 2.5rem 1rem;
 }
 
-.formContainer form{
-  display: flex;
-  flex-direction: column;
-  gap:1.5rem;
-  padding: 1.5rem;
-
-}
-
-.formContainer input{
-  padding: .5rem;
-}
-
-.formContainer button{
-  background-color:black;
+#signup-form button{
+    background-color:black;
     color: white;
-    width: 7rem;
-    padding: .5rem;
+    width: 5rem;
+    padding: 1rem;
     float: left;
-
+    margin-left: 2rem;
 }

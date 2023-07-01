@@ -190,3 +190,12 @@ main-content .items .item .circle {
   border-radius: 100%;
   margin: 0 5px;
 }
+
+
+.hide-class{
+  display: none
+}
+.active{
+  color: white;
+  background-color: black;
+}
